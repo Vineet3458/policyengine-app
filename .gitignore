@@ -6,7 +6,6 @@
 .pnp.js
 
 ## vscode settings
-/.vscode
 
 # testing
 /coverage
@@ -16,7 +15,6 @@
 
 # misc
 .DS_Store
-.env.local
 .env.development.local
 .env.test.local
 .env.production.local
@@ -30,8 +28,8 @@ yarn-error.log*
 /main.py
 /requirements.txt
 **/__pycache__
-.env
 /src/__tests__/__setup__/data.json
 .idea
 
 venv/*
+config.bat

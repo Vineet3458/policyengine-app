@@ -64,8 +64,8 @@
     "yup": "^1.6.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "node init && react-scripts start",
+    "build": "node init && react-scripts build",
     "test": "jest",
     "eject": "react-scripts eject",
     "fix": "eslint --fix --ext js,jsx . && prettier -w .",
